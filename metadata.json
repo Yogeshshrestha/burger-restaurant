@@ -1,0 +1,6 @@
+{
+  "name": "Cinematic Burger Experience",
+  "description": "An interactive, scroll-driven premium burger culinary experience. Build, customize, and track your artisan flame-grilled burgers in cinematic detail.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
