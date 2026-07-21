@@ -134,25 +134,7 @@ export default function App() {
   return (
     <div className="relative min-h-screen bg-neutral-950 text-white font-sans overflow-x-hidden selection:bg-orange-600 selection:text-white">
       
-      {/* Top Glass Navigation */}
-      <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-4xl px-2">
-        <div className="bg-neutral-900/70 backdrop-blur-xl border border-neutral-800/80 rounded-2xl px-4 py-3 flex items-center justify-between shadow-[0_20px_50px_rgba(0,0,0,0.8)]">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-orange-600 flex items-center justify-center shadow-lg shadow-orange-600/20">
-              <Flame className="w-4.5 h-4.5 text-white animate-pulse" />
-            </div>
-            <span className="font-sans font-black text-xs uppercase tracking-widest text-white hidden sm:block">
-              FLAME FOUNDRY
-            </span>
-          </div>
 
-          <div className="flex items-center">
-            <span className="font-mono text-[9px] text-neutral-500 uppercase font-bold tracking-widest hidden md:block bg-neutral-950 px-2.5 py-1 rounded-md border border-neutral-850">
-              EST. 2026
-            </span>
-          </div>
-        </div>
-      </div>
 
       {/* Floating Sticky Cart Hub with particle burst overlay */}
       <div className="fixed bottom-6 right-6 z-40">
